@@ -1,0 +1,812 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5efe202d-98e3-49e6-af27-0163f04ca0f1")
+	(paper "A4")
+	(lib_symbols
+		(symbol "SamacSys_Parts:61300211121"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "61300211121"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300211121/4846823"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "8.54"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-61300211121"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "61300211121"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "61300211121_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:CFR-25JB-52-1K"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CFR-25JB-52-1K"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SamacSys_Parts:RESAD1590W60L630D240"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Carbon Film Resistors - Through Hole 1/4W 1K Ohm 5%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "N/A"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Yageo/CFR-25JB-52-1K/?qs=oypCK0zG326Dzm6bUFS4DQ%3D%3D"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KEMET"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CFR-25JB-52-1K"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CFR-25JB-52-1K_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 177.8 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a473f50-8dfb-498e-9256-18bccf694223")
+	)
+	(junction
+		(at 101.6 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "889f69c1-492e-4b02-aa7a-dda9cbeae49d")
+	)
+	(wire
+		(pts
+			(xy 140.97 101.6) (xy 177.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db0516e-eed1-43cb-9d98-1eced87a55f0")
+	)
+	(wire
+		(pts
+			(xy 101.6 88.9) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551d4a3b-3c63-4b8d-bc64-3f509f29baac")
+	)
+	(wire
+		(pts
+			(xy 148.59 88.9) (xy 177.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "563ff756-d3e8-49c6-88ff-3c52866cec9d")
+	)
+	(wire
+		(pts
+			(xy 138.43 101.6) (xy 138.43 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10763c3-e2d6-4725-a2cf-cc2109cfe3a6")
+	)
+	(wire
+		(pts
+			(xy 177.8 88.9) (xy 190.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abcc961c-5d8d-497c-9a0c-abe7802acb75")
+	)
+	(wire
+		(pts
+			(xy 177.8 101.6) (xy 177.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c05f6da6-0cc9-4f44-8502-09d495677042")
+	)
+	(wire
+		(pts
+			(xy 88.9 88.9) (xy 101.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1dcf64b-b69e-4a89-b07a-e57ca88f8750")
+	)
+	(wire
+		(pts
+			(xy 138.43 101.6) (xy 101.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df4c4202-f4c8-472a-85c5-e23d1d1038c1")
+	)
+	(wire
+		(pts
+			(xy 140.97 101.6) (xy 140.97 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6121d19-cef9-4bdc-bac4-e2e3bf763250")
+	)
+	(wire
+		(pts
+			(xy 101.6 101.6) (xy 101.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca26170-195e-45a7-8823-bb70eba53c7e")
+	)
+	(hierarchical_label "In"
+		(shape input)
+		(at 88.9 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "182261f2-8bad-4848-bfae-a58275cc8927")
+	)
+	(hierarchical_label "Out"
+		(shape output)
+		(at 190.5 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83c398d8-1c90-4daf-9921-5b657fb90c1d")
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:CFR-25JB-52-1K")
+		(at 130.81 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39608086-0931-4019-b61c-8d6ff39878e0")
+		(property "Reference" "R2"
+			(at 139.7 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CFR-25JB-52-1K"
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:RESAD1590W60L630D240"
+			(at 144.78 185.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 285.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Carbon Film Resistors - Through Hole 1/4W 1K Ohm 5%"
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 144.78 485.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 144.78 585.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Yageo/CFR-25JB-52-1K/?qs=oypCK0zG326Dzm6bUFS4DQ%3D%3D"
+			(at 144.78 685.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 144.78 785.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CFR-25JB-52-1K"
+			(at 144.78 885.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3b10b0f-b4ef-479b-a319-e83f3a8e71cf")
+		)
+		(pin "2"
+			(uuid "51a2cdc1-a6c4-4277-b77c-870a36dcba5f")
+		)
+		(instances
+			(project ""
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/0087dda1-1fbb-4bc9-8ac0-467f27dda043"
+					(reference "R4")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/062feb6c-41bf-40d6-b5fc-5815da19f51a"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/1c2d175d-5260-45e2-ab58-11f478a57245"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/34ccdcef-c5cd-45f8-8fd7-298a4c625fee"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/4c670f04-2e05-4e02-8866-f48372fa1ff8"
+					(reference "R3")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/599810dd-7f87-40b0-a78f-cf1fd654ab05"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/5ce1397b-840b-4c86-b2b8-476529fad0df"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/6be4737e-6b71-4d0f-95a0-61b7e1b4b4ed"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/6da8951b-55dd-49d3-848d-df84e1cdcf32"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/7efc8dc2-996f-46e9-97e2-641090acc2b3"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/858fe198-fd18-422f-af07-1edb2224c2e7"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/a2b5108e-5cbe-4e97-a861-4890393bd55d"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/a7dbdd01-c4ac-4031-af27-5a3f3ddfd29b"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/da21030a-0241-49ea-ba51-87bb18db145d"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/e2c9e78f-4350-49d8-b8bf-0d48f8fbb4ed"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/f6955642-3cf0-47c4-8e64-12dc958962ac"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:61300211121")
+		(at 138.43 104.14 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9134415-9ea6-4807-b82b-b188118de9a1")
+		(property "Reference" "J23"
+			(at 134.62 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "61300211121"
+			(at 134.62 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+			(at 233.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300211121/4846823"
+			(at 333.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.54"
+			(at 533.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-61300211121"
+			(at 633.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(at 733.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 833.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "61300211121"
+			(at 933.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1cf8020-f0c6-4684-8466-54b0b1b25707")
+		)
+		(pin "2"
+			(uuid "f29b22f0-4bf9-41e4-83e5-3ac83fa07afd")
+		)
+		(instances
+			(project ""
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/0087dda1-1fbb-4bc9-8ac0-467f27dda043"
+					(reference "J25")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/062feb6c-41bf-40d6-b5fc-5815da19f51a"
+					(reference "J23")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/1c2d175d-5260-45e2-ab58-11f478a57245"
+					(reference "J34")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/34ccdcef-c5cd-45f8-8fd7-298a4c625fee"
+					(reference "J32")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/4c670f04-2e05-4e02-8866-f48372fa1ff8"
+					(reference "J24")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/599810dd-7f87-40b0-a78f-cf1fd654ab05"
+					(reference "J28")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/5ce1397b-840b-4c86-b2b8-476529fad0df"
+					(reference "J37")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/6be4737e-6b71-4d0f-95a0-61b7e1b4b4ed"
+					(reference "J26")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/6da8951b-55dd-49d3-848d-df84e1cdcf32"
+					(reference "J31")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/7efc8dc2-996f-46e9-97e2-641090acc2b3"
+					(reference "J38")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/858fe198-fd18-422f-af07-1edb2224c2e7"
+					(reference "J30")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/a2b5108e-5cbe-4e97-a861-4890393bd55d"
+					(reference "J27")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/a7dbdd01-c4ac-4031-af27-5a3f3ddfd29b"
+					(reference "J36")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/da21030a-0241-49ea-ba51-87bb18db145d"
+					(reference "J35")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/e2c9e78f-4350-49d8-b8bf-0d48f8fbb4ed"
+					(reference "J29")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/f6955642-3cf0-47c4-8e64-12dc958962ac"
+					(reference "J33")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
