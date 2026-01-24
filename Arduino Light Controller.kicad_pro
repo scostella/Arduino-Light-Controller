@@ -713,6 +713,10 @@
     [
       "7efc8dc2-996f-46e9-97e2-641090acc2b3",
       "ResistorNet15"
+    ],
+    [
+      "2640229e-9cdb-4ca5-b402-47f6738a7a82",
+      "PowerLED"
     ]
   ],
   "text_variables": {}
