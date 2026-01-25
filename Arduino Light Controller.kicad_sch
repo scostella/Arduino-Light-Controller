@@ -2425,7 +2425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "018e10f9-c71d-48ab-b034-982db7d83d35")
-		(property "Reference" "J7"
+		(property "Reference" "J2"
 			(at 50.8 153.924 90)
 			(effects
 				(font
@@ -2531,7 +2531,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J7")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2547,7 +2547,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1114cfa8-7eae-4dd4-8cdd-e9d47b808f11")
-		(property "Reference" "J13"
+		(property "Reference" "J9"
 			(at 127 153.924 90)
 			(effects
 				(font
@@ -2653,7 +2653,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J13")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2669,7 +2669,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1265f23c-9ff5-49f6-a7ce-a48a06fd90c5")
-		(property "Reference" "J10"
+		(property "Reference" "J5"
 			(at 88.9 153.924 90)
 			(effects
 				(font
@@ -2775,7 +2775,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J10")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2791,7 +2791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1356e4c5-3658-4ccb-aa41-6101fba7309a")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR02"
 			(at 30.48 102.87 0)
 			(effects
 				(font
@@ -2841,7 +2841,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2857,7 +2857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a49a268-98d5-4723-bc63-29cbf7f2f75b")
-		(property "Reference" "J11"
+		(property "Reference" "J6"
 			(at 101.6 153.924 90)
 			(effects
 				(font
@@ -2963,7 +2963,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J11")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2979,7 +2979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28c95fb3-b15f-4ab4-ada4-6cea175d21c3")
-		(property "Reference" "J21"
+		(property "Reference" "J19"
 			(at 228.6 153.924 90)
 			(effects
 				(font
@@ -3085,7 +3085,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J21")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -3101,7 +3101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cf31932-926e-4396-b32b-2c7b0cbe77c1")
-		(property "Reference" "J15"
+		(property "Reference" "J11"
 			(at 152.4 153.924 90)
 			(effects
 				(font
@@ -3207,7 +3207,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J15")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -3287,7 +3287,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4808e5cb-a0c1-4cb9-b761-2a1d7551d9fa")
-		(property "Reference" "J19"
+		(property "Reference" "J17"
 			(at 203.2 153.924 90)
 			(effects
 				(font
@@ -3393,7 +3393,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J19")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -3409,7 +3409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "584c274c-c957-4465-85d2-e1061618fb55")
-		(property "Reference" "J9"
+		(property "Reference" "J4"
 			(at 76.2 153.924 90)
 			(effects
 				(font
@@ -3515,7 +3515,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J9")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3531,7 +3531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "588f36c4-55aa-4291-9eaa-a69bf87f17a7")
-		(property "Reference" "J3"
+		(property "Reference" "J16"
 			(at 217.17 20.3199 90)
 			(effects
 				(font
@@ -3643,7 +3643,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J3")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -3659,7 +3659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f00cde7-7ced-4a0a-85e5-fb4568518876")
-		(property "Reference" "J5"
+		(property "Reference" "J1"
 			(at 27.178 46.736 0)
 			(effects
 				(font
@@ -3768,7 +3768,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3784,7 +3784,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73edfe96-81c9-48ec-80cf-61fb404979be")
-		(property "Reference" "J20"
+		(property "Reference" "J18"
 			(at 215.9 153.924 90)
 			(effects
 				(font
@@ -3890,7 +3890,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J20")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -4038,7 +4038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91e09e37-2ee9-4fb6-be03-7f570d8e1c57")
-		(property "Reference" "J22"
+		(property "Reference" "J21"
 			(at 241.3 153.924 90)
 			(effects
 				(font
@@ -4144,7 +4144,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J22")
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -4160,7 +4160,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97047447-922d-4b36-809e-2dae600b01ef")
-		(property "Reference" "J17"
+		(property "Reference" "J14"
 			(at 177.8 153.924 90)
 			(effects
 				(font
@@ -4266,7 +4266,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J17")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -4282,7 +4282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "991ef947-00a7-4e94-9a64-a7646d74327b")
-		(property "Reference" "J2"
+		(property "Reference" "J12"
 			(at 179.07 20.3199 90)
 			(effects
 				(font
@@ -4394,7 +4394,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J2")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -4410,7 +4410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9981d049-2397-4748-9087-0950701f8e27")
-		(property "Reference" "J1"
+		(property "Reference" "J8"
 			(at 140.97 20.3199 90)
 			(effects
 				(font
@@ -4522,7 +4522,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J1")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -4538,7 +4538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d1d43f3-0f99-4a3a-985b-e73e5d2e5312")
-		(property "Reference" "J18"
+		(property "Reference" "J15"
 			(at 190.5 153.924 90)
 			(effects
 				(font
@@ -4644,7 +4644,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J18")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -4724,7 +4724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9b95795-a565-458e-a70a-2211abaec236")
-		(property "Reference" "J4"
+		(property "Reference" "J20"
 			(at 255.27 20.3199 90)
 			(effects
 				(font
@@ -4836,7 +4836,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J4")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -4852,7 +4852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab4cd738-de94-49bb-94e2-7a4f7e7b7b10")
-		(property "Reference" "J14"
+		(property "Reference" "J10"
 			(at 139.7 153.924 90)
 			(effects
 				(font
@@ -4958,7 +4958,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J14")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -5106,7 +5106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b59c1fda-cb3e-44b9-a331-308bd105837d")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 30.48 77.47 0)
 			(effects
 				(font
@@ -5156,7 +5156,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5172,7 +5172,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc931111-2e33-49ba-b591-966ab7d5a6a5")
-		(property "Reference" "J12"
+		(property "Reference" "J7"
 			(at 114.3 153.924 90)
 			(effects
 				(font
@@ -5278,7 +5278,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J12")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -5294,7 +5294,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d87bba64-572f-438d-a00d-d2603b2421e9")
-		(property "Reference" "J8"
+		(property "Reference" "J3"
 			(at 63.5 153.924 90)
 			(effects
 				(font
@@ -5400,7 +5400,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J8")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5416,7 +5416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e25ecf55-f0e7-456f-87c0-a9b0a456bab8")
-		(property "Reference" "J16"
+		(property "Reference" "J13"
 			(at 165.1 153.924 90)
 			(effects
 				(font
@@ -5522,7 +5522,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J16")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -5538,7 +5538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e582386d-a0c1-4bd5-bfdc-a94ad5142429")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 283.21 15.2399 0)
 			(effects
 				(font
@@ -5586,7 +5586,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -5601,7 +5601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6512132-53a2-4f12-95fc-23fe1daea28f")
-		(property "Reference" "J6"
+		(property "Reference" "J22"
 			(at 272.542 46.482 0)
 			(effects
 				(font
@@ -5710,7 +5710,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "J6")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -5726,7 +5726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f99c0803-13af-4645-a53d-0e95752e1e20")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 20.32 162.5599 0)
 			(effects
 				(font
@@ -5774,7 +5774,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)

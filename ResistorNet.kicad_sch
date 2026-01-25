@@ -182,7 +182,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SamacSys_Parts:RESAD1590W60L630D240"
+			(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 				(at 13.97 -96.19 0)
 				(effects
 					(font
@@ -457,7 +457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39608086-0931-4019-b61c-8d6ff39878e0")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 139.7 82.55 0)
 			(effects
 				(font
@@ -473,7 +473,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:RESAD1590W60L630D240"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 144.78 185.09 0)
 			(effects
 				(font
@@ -561,67 +561,67 @@
 		(instances
 			(project ""
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/0087dda1-1fbb-4bc9-8ac0-467f27dda043"
-					(reference "R4")
-					(unit 1)
-				)
-				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/062feb6c-41bf-40d6-b5fc-5815da19f51a"
-					(reference "R2")
-					(unit 1)
-				)
-				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/1c2d175d-5260-45e2-ab58-11f478a57245"
-					(reference "R13")
-					(unit 1)
-				)
-				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/34ccdcef-c5cd-45f8-8fd7-298a4c625fee"
-					(reference "R11")
-					(unit 1)
-				)
-				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/4c670f04-2e05-4e02-8866-f48372fa1ff8"
 					(reference "R3")
 					(unit 1)
 				)
-				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/599810dd-7f87-40b0-a78f-cf1fd654ab05"
-					(reference "R7")
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/062feb6c-41bf-40d6-b5fc-5815da19f51a"
+					(reference "R1")
 					(unit 1)
 				)
-				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/5ce1397b-840b-4c86-b2b8-476529fad0df"
-					(reference "R16")
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/1c2d175d-5260-45e2-ab58-11f478a57245"
+					(reference "R12")
 					(unit 1)
 				)
-				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/6be4737e-6b71-4d0f-95a0-61b7e1b4b4ed"
-					(reference "R5")
-					(unit 1)
-				)
-				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/6da8951b-55dd-49d3-848d-df84e1cdcf32"
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/34ccdcef-c5cd-45f8-8fd7-298a4c625fee"
 					(reference "R10")
 					(unit 1)
 				)
-				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/7efc8dc2-996f-46e9-97e2-641090acc2b3"
-					(reference "R17")
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/4c670f04-2e05-4e02-8866-f48372fa1ff8"
+					(reference "R2")
 					(unit 1)
 				)
-				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/858fe198-fd18-422f-af07-1edb2224c2e7"
-					(reference "R9")
-					(unit 1)
-				)
-				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/a2b5108e-5cbe-4e97-a861-4890393bd55d"
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/599810dd-7f87-40b0-a78f-cf1fd654ab05"
 					(reference "R6")
 					(unit 1)
 				)
-				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/a7dbdd01-c4ac-4031-af27-5a3f3ddfd29b"
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/5ce1397b-840b-4c86-b2b8-476529fad0df"
 					(reference "R15")
 					(unit 1)
 				)
-				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/da21030a-0241-49ea-ba51-87bb18db145d"
-					(reference "R14")
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/6be4737e-6b71-4d0f-95a0-61b7e1b4b4ed"
+					(reference "R4")
 					(unit 1)
 				)
-				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/e2c9e78f-4350-49d8-b8bf-0d48f8fbb4ed"
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/6da8951b-55dd-49d3-848d-df84e1cdcf32"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/7efc8dc2-996f-46e9-97e2-641090acc2b3"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/858fe198-fd18-422f-af07-1edb2224c2e7"
 					(reference "R8")
 					(unit 1)
 				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/a2b5108e-5cbe-4e97-a861-4890393bd55d"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/a7dbdd01-c4ac-4031-af27-5a3f3ddfd29b"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/da21030a-0241-49ea-ba51-87bb18db145d"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/e2c9e78f-4350-49d8-b8bf-0d48f8fbb4ed"
+					(reference "R7")
+					(unit 1)
+				)
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/f6955642-3cf0-47c4-8e64-12dc958962ac"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)

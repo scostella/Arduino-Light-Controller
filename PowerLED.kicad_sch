@@ -245,7 +245,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SamacSys_Parts:RESAD1590W60L630D240"
+			(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 				(at 13.97 -96.19 0)
 				(effects
 					(font
@@ -730,7 +730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "098cbd89-9e36-4228-918c-888aec852529")
-		(property "Reference" "LED?"
+		(property "Reference" "LED1"
 			(at 134.62 93.98 0)
 			(effects
 				(font
@@ -834,7 +834,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/2640229e-9cdb-4ca5-b402-47f6738a7a82"
-					(reference "LED?")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -850,7 +850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f0f3cf0-11fb-4bdb-b2ac-acdecefb335f")
-		(property "Reference" "R?"
+		(property "Reference" "R17"
 			(at 156.21 95.25 0)
 			(effects
 				(font
@@ -866,7 +866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:RESAD1590W60L630D240"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 161.29 197.79 0)
 			(effects
 				(font
@@ -954,7 +954,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/2640229e-9cdb-4ca5-b402-47f6738a7a82"
-					(reference "R?")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -970,7 +970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a27e7461-aaaf-4640-bb82-13885106109c")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 146.05 106.68 0)
 			(effects
 				(font
@@ -1074,7 +1074,7 @@
 		(instances
 			(project "Arduino Light Controller"
 				(path "/1ab818d2-1673-4bd5-b77a-2cfddf9e3efa/2640229e-9cdb-4ca5-b402-47f6738a7a82"
-					(reference "C?")
+					(reference "C1")
 					(unit 1)
 				)
 			)
