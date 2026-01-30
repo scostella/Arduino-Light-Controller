@@ -5,7 +5,7 @@
 	(uuid "5efe202d-98e3-49e6-af27-0163f04ca0f1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "SamacSys_Parts:61300211121"
+		(symbol "Custom:Header-1x2-TH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18,7 +18,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "61300211121"
+			(property "Value" "Header-1x2-TH"
 				(at 16.51 5.08 0)
 				(effects
 					(font
@@ -27,7 +27,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+			(property "Footprint" "Custom:710-61300211121"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+			(property "Description" "Header - WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +66,16 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "710-61300211121"
+			(property "Supplier" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Number" "710-61300211121"
 				(at 16.51 -494.92 0)
 				(effects
 					(font
@@ -76,7 +85,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
 				(at 16.51 -594.92 0)
 				(effects
 					(font
@@ -106,7 +115,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "61300211121_1_1"
+			(symbol "Header-1x2-TH_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 15.24 -5.08)
@@ -157,52 +166,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:CFR-25JB-52-1K"
-			(pin_names
+		(symbol "Custom:Res-1K-TH"
+			(pin_numbers
 				(hide yes)
+			)
+			(pin_names
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 13.97 6.35 0)
+				(at 2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "CFR-25JB-52-1K"
-				(at 13.97 3.81 0)
+			(property "Value" "RES-1K-TH"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-				(at 13.97 -96.19 0)
+				(at 1.016 -0.254 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 13.97 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Carbon Film Resistors - Through Hole 1/4W 1K Ohm 5%"
+			(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/YAGEO%20CFR_datasheet_2023v2.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -211,72 +210,145 @@
 					(hide yes)
 				)
 			)
-			(property "Height" ""
-				(at 13.97 -396.19 0)
+			(property "Description" "Resistor - 1K- 1/4W - 5% - Through Hole"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "N/A"
-				(at 13.97 -496.19 0)
+			(property "Supplier" "Mouser"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Yageo/CFR-25JB-52-1K/?qs=oypCK0zG326Dzm6bUFS4DQ%3D%3D"
-				(at 13.97 -596.19 0)
+			(property "Supplier Part Number" "603-CFR-25JR-521K"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "KEMET"
-				(at 13.97 -696.19 0)
+			(property "Supplier Price/Stock" "https://www.mouser.com/ProductDetail/YAGEO/CFR-25JR-52-1K?qs=FK4oyhsNhknmd5zXOZ4mTQ%3D%3D"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "CFR-25JB-52-1K"
-				(at 13.97 -796.19 0)
+			(property "Manufacturer_Name" "YAGEO"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "CFR-25JB-52-1K_1_1"
-				(rectangle
-					(start 5.08 1.27)
-					(end 12.7 -1.27)
+			(property "Manufacturer_Part_Number" "CFR-25JR-52-1K "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Res-1K-TH_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Res-1K-TH_1_1"
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -292,9 +364,9 @@
 					)
 				)
 				(pin passive line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "2"
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -337,7 +409,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 88.9) (xy 130.81 88.9)
+			(xy 101.6 88.9) (xy 135.89 88.9)
 		)
 		(stroke
 			(width 0)
@@ -347,13 +419,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 88.9) (xy 177.8 88.9)
+			(xy 143.51 88.9) (xy 177.8 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "563ff756-d3e8-49c6-88ff-3c52866cec9d")
+		(uuid "5a084dc9-494e-46fb-98d6-d45b884882e6")
 	)
 	(wire
 		(pts
@@ -448,8 +520,8 @@
 		(uuid "83c398d8-1c90-4daf-9921-5b657fb90c1d")
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:CFR-25JB-52-1K")
-		(at 130.81 88.9 0)
+		(lib_id "Custom:Res-1K-TH")
+		(at 139.7 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -458,15 +530,15 @@
 		(fields_autoplaced yes)
 		(uuid "39608086-0931-4019-b61c-8d6ff39878e0")
 		(property "Reference" "R1"
-			(at 139.7 82.55 0)
+			(at 139.7 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CFR-25JB-52-1K"
-			(at 139.7 85.09 0)
+		(property "Value" "RES-1K-TH"
+			(at 139.7 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -474,27 +546,25 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 144.78 185.09 0)
+			(at 139.954 87.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 144.78 285.09 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/YAGEO%20CFR_datasheet_2023v2.pdf"
+			(at 139.7 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Carbon Film Resistors - Through Hole 1/4W 1K Ohm 5%"
-			(at 130.81 88.9 0)
+		(property "Description" "Resistor - 1K- 1/4W - 5% - Through Hole"
+			(at 139.7 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -503,7 +573,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 144.78 485.09 0)
+			(at 535.89 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -513,7 +583,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 144.78 585.09 0)
+			(at 635.89 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -523,7 +593,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Yageo/CFR-25JB-52-1K/?qs=oypCK0zG326Dzm6bUFS4DQ%3D%3D"
-			(at 144.78 685.09 0)
+			(at 735.89 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -532,23 +602,48 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 144.78 785.09 0)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 139.7 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CFR-25JB-52-1K"
-			(at 144.78 885.09 0)
+		(property "Manufacturer_Part_Number" "CFR-25JR-52-1K "
+			(at 139.7 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "603-CFR-25JR-521K"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.com/ProductDetail/YAGEO/CFR-25JR-52-1K?qs=FK4oyhsNhknmd5zXOZ4mTQ%3D%3D"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -628,7 +723,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300211121")
+		(lib_id "Custom:Header-1x2-TH")
 		(at 138.43 104.14 90)
 		(mirror x)
 		(unit 1)
@@ -638,7 +733,7 @@
 		(dnp no)
 		(uuid "e9134415-9ea6-4807-b82b-b188118de9a1")
 		(property "Reference" "J23"
-			(at 134.62 113.0299 90)
+			(at 139.192 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -646,16 +741,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "61300211121"
-			(at 134.62 115.5699 90)
+		(property "Value" "Header-1x2-TH"
+			(at 151.13 121.666 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+		(property "Footprint" "Custom:710-61300211121"
 			(at 233.35 120.65 0)
 			(effects
 				(font
@@ -675,7 +770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
 			(at 138.43 104.14 0)
 			(effects
 				(font
@@ -726,6 +821,35 @@
 		)
 		(property "Manufacturer_Part_Number" "61300211121"
 			(at 933.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300211121"
+			(at 633.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(at 733.35 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5,90 +5,7 @@
 	(uuid "1ab818d2-1673-4bd5-b77a-2cfddf9e3efa")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SamacSys_Parts:61300211121"
+		(symbol "Custom:Header-1x2-TH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -101,7 +18,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "61300211121"
+			(property "Value" "Header-1x2-TH"
 				(at 16.51 5.08 0)
 				(effects
 					(font
@@ -110,7 +27,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+			(property "Footprint" "Custom:710-61300211121"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -130,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+			(property "Description" "Header - WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
 				(at 0 0 0)
 				(effects
 					(font
@@ -149,7 +66,16 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "710-61300211121"
+			(property "Supplier" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Number" "710-61300211121"
 				(at 16.51 -494.92 0)
 				(effects
 					(font
@@ -159,7 +85,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
 				(at 16.51 -594.92 0)
 				(effects
 					(font
@@ -189,7 +115,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "61300211121_1_1"
+			(symbol "Header-1x2-TH_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 15.24 -5.08)
@@ -240,7 +166,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:61300311121"
+		(symbol "Custom:Header-1x3-TH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -253,7 +179,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "61300311121"
+			(property "Value" "Header-1x3-TH"
 				(at 16.51 5.08 0)
 				(effects
 					(font
@@ -262,7 +188,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SamacSys_Parts:HDRV3W64P0X254_1X3_762X254X869P"
+			(property "Footprint" "Custom:710-61300311121"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -282,7 +208,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "WR-PHD 2.54 mm Pin Header 3 pins, 1 row, straight, gold plating"
+			(property "Description" "Header - WR-PHD 2.54 mm Pin Header 3 pins, 1 row, straight, gold plating"
 				(at 0 0 0)
 				(effects
 					(font
@@ -301,7 +227,16 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "710-61300311121"
+			(property "Supplier" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Number" "710-61300311121"
 				(at 16.51 -494.92 0)
 				(effects
 					(font
@@ -311,7 +246,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300311121?qs=PhR8RmCirEYxRWFJzNKsUw%3D%3D"
+			(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300311121?qs=PhR8RmCirEYxRWFJzNKsUw%3D%3D"
 				(at 16.51 -594.92 0)
 				(effects
 					(font
@@ -341,7 +276,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "61300311121_1_1"
+			(symbol "Header-1x3-TH_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 15.24 -7.62)
@@ -410,7 +345,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:61300411121"
+		(symbol "Custom:Header-1x4-TH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -423,7 +358,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "61300411121"
+			(property "Value" "Header-1x4-TH"
 				(at 16.51 5.08 0)
 				(effects
 					(font
@@ -432,7 +367,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SamacSys_Parts:HDRV4W95P0X254_1X4_1016X254X854P"
+			(property "Footprint" "Custom:710-61300411121"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -452,7 +387,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "WR-PHD 2.54 mm Pin Header 4 pins, 1 row, straight, gold plating"
+			(property "Description" "Header - WR-PHD 2.54 mm Pin Header 4 pins, 1 row, straight, gold plating"
 				(at 0 0 0)
 				(effects
 					(font
@@ -471,7 +406,16 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "710-61300411121"
+			(property "Supplier" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Number" "710-61300411121"
 				(at 16.51 -494.92 0)
 				(effects
 					(font
@@ -481,7 +425,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300411121?qs=PhR8RmCirEYQcLLqXD8rAA%3D%3D"
+			(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300411121?qs=PhR8RmCirEYQcLLqXD8rAA%3D%3D"
 				(at 16.51 -594.92 0)
 				(effects
 					(font
@@ -511,7 +455,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "61300411121_1_1"
+			(symbol "Header-1x4-TH_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 15.24 -10.16)
@@ -593,6 +537,89 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -2416,7 +2443,7 @@
 		(uuid "fffc6dee-3f72-4974-a15a-c2612b72c0fe")
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300211121")
+		(lib_id "Custom:Header-1x2-TH")
 		(at 53.34 137.16 90)
 		(mirror x)
 		(unit 1)
@@ -2434,16 +2461,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300211121"
-			(at 49.53 152.654 0)
+		(property "Value" "Header-1x2-TH"
+			(at 48.768 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+		(property "Footprint" "Custom:710-61300211121"
 			(at 148.26 153.67 0)
 			(effects
 				(font
@@ -2463,7 +2490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
 			(at 53.34 137.16 0)
 			(effects
 				(font
@@ -2522,6 +2549,35 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 53.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300211121"
+			(at 548.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(at 648.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a430d7a0-11e7-4a2b-8975-63ed4136e384")
 		)
@@ -2538,7 +2594,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300211121")
+		(lib_id "Custom:Header-1x2-TH")
 		(at 129.54 137.16 90)
 		(mirror x)
 		(unit 1)
@@ -2556,16 +2612,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300211121"
-			(at 125.73 152.654 0)
+		(property "Value" "Header-1x2-TH"
+			(at 124.968 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+		(property "Footprint" "Custom:710-61300211121"
 			(at 224.46 153.67 0)
 			(effects
 				(font
@@ -2585,7 +2641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
 			(at 129.54 137.16 0)
 			(effects
 				(font
@@ -2644,6 +2700,35 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 129.54 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300211121"
+			(at 624.46 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(at 724.46 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f7d20e6-93b1-4bea-adf7-99b018514d3b")
 		)
@@ -2660,7 +2745,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300211121")
+		(lib_id "Custom:Header-1x2-TH")
 		(at 91.44 137.16 90)
 		(mirror x)
 		(unit 1)
@@ -2678,16 +2763,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300211121"
-			(at 87.63 152.654 0)
+		(property "Value" "Header-1x2-TH"
+			(at 86.868 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+		(property "Footprint" "Custom:710-61300211121"
 			(at 186.36 153.67 0)
 			(effects
 				(font
@@ -2707,7 +2792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
 			(at 91.44 137.16 0)
 			(effects
 				(font
@@ -2758,6 +2843,35 @@
 		)
 		(property "Manufacturer_Part_Number" "61300211121"
 			(at 886.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 91.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300211121"
+			(at 586.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(at 686.36 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,7 +2962,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300211121")
+		(lib_id "Custom:Header-1x2-TH")
 		(at 104.14 137.16 90)
 		(mirror x)
 		(unit 1)
@@ -2866,16 +2980,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300211121"
-			(at 100.33 152.654 0)
+		(property "Value" "Header-1x2-TH"
+			(at 99.568 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+		(property "Footprint" "Custom:710-61300211121"
 			(at 199.06 153.67 0)
 			(effects
 				(font
@@ -2895,7 +3009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
 			(at 104.14 137.16 0)
 			(effects
 				(font
@@ -2954,6 +3068,35 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 104.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300211121"
+			(at 599.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(at 699.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "82901c0b-46e9-4cac-9e2e-50c7daf0594b")
 		)
@@ -2970,7 +3113,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300211121")
+		(lib_id "Custom:Header-1x2-TH")
 		(at 231.14 137.16 90)
 		(mirror x)
 		(unit 1)
@@ -2988,16 +3131,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300211121"
-			(at 227.33 152.654 0)
+		(property "Value" "Header-1x2-TH"
+			(at 226.568 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+		(property "Footprint" "Custom:710-61300211121"
 			(at 326.06 153.67 0)
 			(effects
 				(font
@@ -3017,7 +3160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
 			(at 231.14 137.16 0)
 			(effects
 				(font
@@ -3076,6 +3219,35 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 231.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300211121"
+			(at 726.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(at 826.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "17f2e615-3572-4c31-9b31-c650b265ac0c")
 		)
@@ -3092,7 +3264,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300211121")
+		(lib_id "Custom:Header-1x2-TH")
 		(at 154.94 137.16 90)
 		(mirror x)
 		(unit 1)
@@ -3110,16 +3282,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300211121"
-			(at 151.13 152.654 0)
+		(property "Value" "Header-1x2-TH"
+			(at 150.368 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+		(property "Footprint" "Custom:710-61300211121"
 			(at 249.86 153.67 0)
 			(effects
 				(font
@@ -3139,7 +3311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
 			(at 154.94 137.16 0)
 			(effects
 				(font
@@ -3190,6 +3362,35 @@
 		)
 		(property "Manufacturer_Part_Number" "61300211121"
 			(at 949.86 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 154.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300211121"
+			(at 649.86 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(at 749.86 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3278,7 +3479,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300211121")
+		(lib_id "Custom:Header-1x2-TH")
 		(at 205.74 137.16 90)
 		(mirror x)
 		(unit 1)
@@ -3296,16 +3497,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300211121"
-			(at 201.93 152.654 0)
+		(property "Value" "Header-1x2-TH"
+			(at 201.168 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+		(property "Footprint" "Custom:710-61300211121"
 			(at 300.66 153.67 0)
 			(effects
 				(font
@@ -3325,7 +3526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
 			(at 205.74 137.16 0)
 			(effects
 				(font
@@ -3384,6 +3585,35 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 205.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300211121"
+			(at 700.66 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(at 800.66 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e5954537-1c8e-4e99-88e1-30542d18abdb")
 		)
@@ -3400,7 +3630,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300211121")
+		(lib_id "Custom:Header-1x2-TH")
 		(at 78.74 137.16 90)
 		(mirror x)
 		(unit 1)
@@ -3418,16 +3648,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300211121"
-			(at 74.93 152.654 0)
+		(property "Value" "Header-1x2-TH"
+			(at 74.168 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+		(property "Footprint" "Custom:710-61300211121"
 			(at 173.66 153.67 0)
 			(effects
 				(font
@@ -3447,7 +3677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
 			(at 78.74 137.16 0)
 			(effects
 				(font
@@ -3506,6 +3736,35 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 78.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300211121"
+			(at 573.66 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(at 673.66 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4afe1d04-ffd2-481d-8e2c-c2f66ed39e60")
 		)
@@ -3522,7 +3781,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300411121")
+		(lib_id "Custom:Header-1x4-TH")
 		(at 205.74 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3540,7 +3799,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300411121"
+		(property "Value" "Header-1x4-TH"
 			(at 217.17 22.8599 90)
 			(effects
 				(font
@@ -3549,7 +3808,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV4W95P0X254_1X4_1016X254X854P"
+		(property "Footprint" "Custom:710-61300411121"
 			(at 300.66 15.24 0)
 			(effects
 				(font
@@ -3569,7 +3828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 4 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 4 pins, 1 row, straight, gold plating"
 			(at 205.74 31.75 0)
 			(effects
 				(font
@@ -3628,6 +3887,35 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 205.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300411121"
+			(at 700.66 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300411121?qs=PhR8RmCirEYQcLLqXD8rAA%3D%3D"
+			(at 800.66 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99b46f14-a1eb-4fba-bbfc-8efd96acb5ca")
 		)
@@ -3650,7 +3938,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300311121")
+		(lib_id "Custom:Header-1x3-TH")
 		(at 31.75 53.34 0)
 		(mirror y)
 		(unit 1)
@@ -3660,7 +3948,7 @@
 		(dnp no)
 		(uuid "5f00cde7-7ced-4a0a-85e5-fb4568518876")
 		(property "Reference" "J1"
-			(at 27.178 46.736 0)
+			(at 18.796 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3668,16 +3956,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "61300311121"
-			(at 27.178 49.276 0)
+		(property "Value" "Header-1x3-TH"
+			(at 32.004 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV3W64P0X254_1X3_762X254X869P"
+		(property "Footprint" "Custom:710-61300311121"
 			(at 15.24 148.26 0)
 			(effects
 				(font
@@ -3697,7 +3985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 3 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 3 pins, 1 row, straight, gold plating"
 			(at 31.75 53.34 0)
 			(effects
 				(font
@@ -3756,6 +4044,35 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 31.75 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300311121"
+			(at 15.24 548.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300311121?qs=PhR8RmCirEYxRWFJzNKsUw%3D%3D"
+			(at 15.24 648.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56803290-292f-425a-b390-56c080f7b3aa")
 		)
@@ -3775,7 +4092,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300211121")
+		(lib_id "Custom:Header-1x2-TH")
 		(at 218.44 137.16 90)
 		(mirror x)
 		(unit 1)
@@ -3793,16 +4110,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300211121"
-			(at 214.63 152.654 0)
+		(property "Value" "Header-1x2-TH"
+			(at 213.868 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+		(property "Footprint" "Custom:710-61300211121"
 			(at 313.36 153.67 0)
 			(effects
 				(font
@@ -3822,7 +4139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
 			(at 218.44 137.16 0)
 			(effects
 				(font
@@ -3873,6 +4190,35 @@
 		)
 		(property "Manufacturer_Part_Number" "61300211121"
 			(at 1013.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 218.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300211121"
+			(at 713.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(at 813.36 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4029,7 +4375,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300211121")
+		(lib_id "Custom:Header-1x2-TH")
 		(at 243.84 137.16 90)
 		(mirror x)
 		(unit 1)
@@ -4047,16 +4393,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300211121"
-			(at 240.03 152.654 0)
+		(property "Value" "Header-1x2-TH"
+			(at 239.014 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+		(property "Footprint" "Custom:710-61300211121"
 			(at 338.76 153.67 0)
 			(effects
 				(font
@@ -4076,7 +4422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
 			(at 243.84 137.16 0)
 			(effects
 				(font
@@ -4135,6 +4481,35 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 243.84 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300211121"
+			(at 738.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(at 838.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "97dfa736-a0f4-4d91-827e-ff4754240ef2")
 		)
@@ -4151,7 +4526,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300211121")
+		(lib_id "Custom:Header-1x2-TH")
 		(at 180.34 137.16 90)
 		(mirror x)
 		(unit 1)
@@ -4169,16 +4544,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300211121"
-			(at 176.53 152.654 0)
+		(property "Value" "Header-1x2-TH"
+			(at 175.768 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+		(property "Footprint" "Custom:710-61300211121"
 			(at 275.26 153.67 0)
 			(effects
 				(font
@@ -4198,7 +4573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
 			(at 180.34 137.16 0)
 			(effects
 				(font
@@ -4257,6 +4632,35 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300211121"
+			(at 675.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(at 775.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "db3e3540-0731-4c37-8965-eb71435bbc41")
 		)
@@ -4273,7 +4677,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300411121")
+		(lib_id "Custom:Header-1x4-TH")
 		(at 167.64 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4291,7 +4695,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300411121"
+		(property "Value" "Header-1x4-TH"
 			(at 179.07 22.8599 90)
 			(effects
 				(font
@@ -4300,7 +4704,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV4W95P0X254_1X4_1016X254X854P"
+		(property "Footprint" "Custom:710-61300411121"
 			(at 262.56 15.24 0)
 			(effects
 				(font
@@ -4320,7 +4724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 4 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 4 pins, 1 row, straight, gold plating"
 			(at 167.64 31.75 0)
 			(effects
 				(font
@@ -4379,6 +4783,35 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 167.64 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300411121"
+			(at 662.56 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300411121?qs=PhR8RmCirEYQcLLqXD8rAA%3D%3D"
+			(at 762.56 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd273387-308e-40c7-892d-182e36bd0d8a")
 		)
@@ -4401,7 +4834,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300411121")
+		(lib_id "Custom:Header-1x4-TH")
 		(at 129.54 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4419,7 +4852,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300411121"
+		(property "Value" "Header-1x4-TH"
 			(at 140.97 22.8599 90)
 			(effects
 				(font
@@ -4428,7 +4861,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV4W95P0X254_1X4_1016X254X854P"
+		(property "Footprint" "Custom:710-61300411121"
 			(at 224.46 15.24 0)
 			(effects
 				(font
@@ -4448,7 +4881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 4 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 4 pins, 1 row, straight, gold plating"
 			(at 129.54 31.75 0)
 			(effects
 				(font
@@ -4507,6 +4940,35 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 129.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300411121"
+			(at 624.46 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300411121?qs=PhR8RmCirEYQcLLqXD8rAA%3D%3D"
+			(at 724.46 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "adc119d1-8c16-43c0-8450-2a8d067d34b6")
 		)
@@ -4529,7 +4991,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300211121")
+		(lib_id "Custom:Header-1x2-TH")
 		(at 193.04 137.16 90)
 		(mirror x)
 		(unit 1)
@@ -4547,16 +5009,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300211121"
-			(at 189.23 152.654 0)
+		(property "Value" "Header-1x2-TH"
+			(at 188.468 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+		(property "Footprint" "Custom:710-61300211121"
 			(at 287.96 153.67 0)
 			(effects
 				(font
@@ -4576,7 +5038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
 			(at 193.04 137.16 0)
 			(effects
 				(font
@@ -4627,6 +5089,35 @@
 		)
 		(property "Manufacturer_Part_Number" "61300211121"
 			(at 987.96 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 193.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300211121"
+			(at 687.96 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(at 787.96 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4715,7 +5206,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300411121")
+		(lib_id "Custom:Header-1x4-TH")
 		(at 243.84 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4733,7 +5224,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300411121"
+		(property "Value" "Header-1x4-TH"
 			(at 255.27 22.8599 90)
 			(effects
 				(font
@@ -4742,7 +5233,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV4W95P0X254_1X4_1016X254X854P"
+		(property "Footprint" "Custom:710-61300411121"
 			(at 338.76 15.24 0)
 			(effects
 				(font
@@ -4762,7 +5253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 4 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 4 pins, 1 row, straight, gold plating"
 			(at 243.84 31.75 0)
 			(effects
 				(font
@@ -4821,6 +5312,35 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 243.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300411121"
+			(at 738.76 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300411121?qs=PhR8RmCirEYQcLLqXD8rAA%3D%3D"
+			(at 838.76 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "779f781f-b11d-4110-ba34-afa56185eb47")
 		)
@@ -4843,7 +5363,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300211121")
+		(lib_id "Custom:Header-1x2-TH")
 		(at 142.24 137.16 90)
 		(mirror x)
 		(unit 1)
@@ -4861,16 +5381,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300211121"
-			(at 138.43 152.654 0)
+		(property "Value" "Header-1x2-TH"
+			(at 137.668 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+		(property "Footprint" "Custom:710-61300211121"
 			(at 237.16 153.67 0)
 			(effects
 				(font
@@ -4890,7 +5410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
 			(at 142.24 137.16 0)
 			(effects
 				(font
@@ -4941,6 +5461,35 @@
 		)
 		(property "Manufacturer_Part_Number" "61300211121"
 			(at 937.16 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 142.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300211121"
+			(at 637.16 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(at 737.16 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5163,7 +5712,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300211121")
+		(lib_id "Custom:Header-1x2-TH")
 		(at 116.84 137.16 90)
 		(mirror x)
 		(unit 1)
@@ -5181,16 +5730,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300211121"
-			(at 113.03 152.654 0)
+		(property "Value" "Header-1x2-TH"
+			(at 112.268 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+		(property "Footprint" "Custom:710-61300211121"
 			(at 211.76 153.67 0)
 			(effects
 				(font
@@ -5210,7 +5759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
 			(at 116.84 137.16 0)
 			(effects
 				(font
@@ -5269,6 +5818,35 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 116.84 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300211121"
+			(at 611.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(at 711.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3b6d5a58-dca9-4f1a-9adc-dc1e77022cfd")
 		)
@@ -5285,7 +5863,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300211121")
+		(lib_id "Custom:Header-1x2-TH")
 		(at 66.04 137.16 90)
 		(mirror x)
 		(unit 1)
@@ -5303,16 +5881,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300211121"
-			(at 62.23 152.654 0)
+		(property "Value" "Header-1x2-TH"
+			(at 61.214 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+		(property "Footprint" "Custom:710-61300211121"
 			(at 160.96 153.67 0)
 			(effects
 				(font
@@ -5332,7 +5910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
 			(at 66.04 137.16 0)
 			(effects
 				(font
@@ -5391,6 +5969,35 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 66.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300211121"
+			(at 560.96 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(at 660.96 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "27410daf-5a2f-4a00-b034-6455be31021f")
 		)
@@ -5407,7 +6014,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300211121")
+		(lib_id "Custom:Header-1x2-TH")
 		(at 167.64 137.16 90)
 		(mirror x)
 		(unit 1)
@@ -5425,16 +6032,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61300211121"
-			(at 163.83 152.654 0)
+		(property "Value" "Header-1x2-TH"
+			(at 163.068 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV2W110P0X254_1X2_508X254X854P"
+		(property "Footprint" "Custom:710-61300211121"
 			(at 262.56 153.67 0)
 			(effects
 				(font
@@ -5454,7 +6061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 2 pins, 1 row, straight, gold plating"
 			(at 167.64 137.16 0)
 			(effects
 				(font
@@ -5505,6 +6112,35 @@
 		)
 		(property "Manufacturer_Part_Number" "61300211121"
 			(at 962.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300211121"
+			(at 662.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"
+			(at 762.56 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +6229,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:61300311121")
+		(lib_id "Custom:Header-1x3-TH")
 		(at 267.97 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5602,7 +6238,7 @@
 		(dnp no)
 		(uuid "f6512132-53a2-4f12-95fc-23fe1daea28f")
 		(property "Reference" "J22"
-			(at 272.542 46.482 0)
+			(at 279.908 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5610,16 +6246,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "61300311121"
-			(at 272.542 49.022 0)
+		(property "Value" "Header-1x3-TH"
+			(at 267.97 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:HDRV3W64P0X254_1X3_762X254X869P"
+		(property "Footprint" "Custom:710-61300311121"
 			(at 284.48 148.26 0)
 			(effects
 				(font
@@ -5639,7 +6275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 3 pins, 1 row, straight, gold plating"
+		(property "Description" "Header - WR-PHD 2.54 mm Pin Header 3 pins, 1 row, straight, gold plating"
 			(at 267.97 53.34 0)
 			(effects
 				(font
@@ -5690,6 +6326,35 @@
 		)
 		(property "Manufacturer_Part_Number" "61300311121"
 			(at 284.48 848.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 267.97 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "710-61300311121"
+			(at 284.48 548.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300311121?qs=PhR8RmCirEYxRWFJzNKsUw%3D%3D"
+			(at 284.48 648.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

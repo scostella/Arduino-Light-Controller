@@ -1,2 +1,4 @@
 Arduino Light Controller-backups/*.zip
 *.lck
+/bom/
+/gerber_to_order/
