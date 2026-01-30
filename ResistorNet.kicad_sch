@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "5efe202d-98e3-49e6-af27-0163f04ca0f1")
 	(paper "A4")
+	(title_block
+		(title "Arduino Light Controller - Resistor Module")
+		(date "2026-01-30")
+		(rev "1.1")
+	)
 	(lib_symbols
 		(symbol "Custom:Header-1x2-TH"
 			(exclude_from_sim no)

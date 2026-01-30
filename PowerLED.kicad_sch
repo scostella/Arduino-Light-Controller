@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "bbd58884-9219-4ffc-95e8-6745754935e5")
 	(paper "A4")
+	(title_block
+		(title "Arduino Light Controller - Power LED Module")
+		(date "2026-01-30")
+		(rev "1.1")
+	)
 	(lib_symbols
 		(symbol "Custom:Res-1K-TH"
 			(pin_numbers
@@ -689,7 +694,7 @@
 		(at 165.1 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "90693afc-6e9c-4628-bd88-01501cdf748f")
+		(uuid "65d1cede-dcd2-43a0-82e0-34a84e477832")
 	)
 	(wire
 		(pts
@@ -703,7 +708,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 101.6) (xy 147.32 101.6)
+			(xy 142.24 101.6) (xy 152.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -750,6 +755,16 @@
 			(type default)
 		)
 		(uuid "829be4d4-8af1-4fe7-a571-e1f6150fce56")
+	)
+	(wire
+		(pts
+			(xy 160.02 101.6) (xy 165.1 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de56a21e-5b34-48d3-94e7-88e38718ca07")
 	)
 	(wire
 		(pts
@@ -905,7 +920,7 @@
 	)
 	(symbol
 		(lib_id "Custom:Res-1K-TH")
-		(at 147.32 101.6 0)
+		(at 156.21 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -914,25 +929,23 @@
 		(fields_autoplaced yes)
 		(uuid "7f0f3cf0-11fb-4bdb-b2ac-acdecefb335f")
 		(property "Reference" "R17"
-			(at 149.86 100.3299 0)
+			(at 156.21 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "RES-1K-TH"
-			(at 149.86 102.8699 0)
+			(at 156.21 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 148.336 101.854 90)
+			(at 156.464 100.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -941,7 +954,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/YAGEO%20CFR_datasheet_2023v2.pdf"
-			(at 147.32 101.6 0)
+			(at 156.21 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -950,7 +963,7 @@
 			)
 		)
 		(property "Description" "Resistor - 1K- 1/4W - 5% - Through Hole"
-			(at 147.32 101.6 0)
+			(at 156.21 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -959,7 +972,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 161.29 497.79 0)
+			(at 552.4 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -969,7 +982,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 161.29 597.79 0)
+			(at 652.4 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -979,7 +992,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Yageo/CFR-25JB-52-1K/?qs=oypCK0zG326Dzm6bUFS4DQ%3D%3D"
-			(at 161.29 697.79 0)
+			(at 752.4 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -989,7 +1002,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 147.32 101.6 0)
+			(at 156.21 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -998,7 +1011,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CFR-25JR-52-1K "
-			(at 147.32 101.6 0)
+			(at 156.21 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1007,7 +1020,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 147.32 101.6 0)
+			(at 156.21 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1016,7 +1029,7 @@
 			)
 		)
 		(property "Supplier Part Number" "603-CFR-25JR-521K"
-			(at 147.32 101.6 0)
+			(at 156.21 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1025,7 +1038,7 @@
 			)
 		)
 		(property "Supplier Price/Stock" "https://www.mouser.com/ProductDetail/YAGEO/CFR-25JR-52-1K?qs=FK4oyhsNhknmd5zXOZ4mTQ%3D%3D"
-			(at 147.32 101.6 0)
+			(at 156.21 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
