@@ -16377,6 +16377,18 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "Resistor\nBypass"
+		(at 178.74 77.94 90)
+		(layer "F.SilkS")
+		(uuid "12584b88-a3bf-4928-b1ef-9a017d993940")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
 	(gr_text "-"
 		(at 112.7 122.39 0)
 		(layer "F.SilkS")
@@ -16473,6 +16485,18 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "Resistor\nBypass"
+		(at 140.64 98.26 90)
+		(layer "F.SilkS")
+		(uuid "37f36ce5-b598-40d4-80e9-f7a113f0a991")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
 	(gr_text "3\n+"
 		(at 122.86 113.5 0)
 		(layer "F.SilkS")
@@ -16483,6 +16507,18 @@
 				(thickness 0.1)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "Resistor\nBypass"
+		(at 115.24 77.94 90)
+		(layer "F.SilkS")
+		(uuid "403b9f97-cad4-40f1-a71c-f6310010e3b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
 		)
 	)
 	(gr_text "6\n+"
@@ -16497,6 +16533,18 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "Resistor\nBypass"
+		(at 153.309206 98.243621 90)
+		(layer "F.SilkS")
+		(uuid "422d80b5-1c7a-4851-be77-5ae0ebbfe927")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
 	(gr_text "7\n+"
 		(at 143.150584 113.474628 0)
 		(layer "F.SilkS")
@@ -16507,6 +16555,18 @@
 				(thickness 0.1)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "Resistor\nBypass"
+		(at 191.44 77.94 90)
+		(layer "F.SilkS")
+		(uuid "476c2a04-d67c-4b14-9430-7952ad200b1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
 		)
 	)
 	(gr_text "7"
@@ -16545,6 +16605,18 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "Resistor\nBypass"
+		(at 153.34 77.94 90)
+		(layer "F.SilkS")
+		(uuid "5399789c-6879-4153-b105-6eed3317bebc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
 	(gr_text "11"
 		(at 166.04 86.83 0)
 		(layer "F.SilkS")
@@ -16579,6 +16651,42 @@
 				(thickness 0.1)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "Resistor\nBypass"
+		(at 178.74 98.26 90)
+		(layer "F.SilkS")
+		(uuid "5e4cd4c6-7023-4887-9d82-3479b5d01365")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "Resistor\nBypass"
+		(at 102.54 77.94 90)
+		(layer "F.SilkS")
+		(uuid "5f68e83e-cf82-499c-911a-5a667d71e357")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "Resistor\nBypass"
+		(at 127.94 77.94 90)
+		(layer "F.SilkS")
+		(uuid "608a42fd-80c9-4b13-bda2-17201d1d474a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
 		)
 	)
 	(gr_text "4\n+"
@@ -16749,6 +16857,18 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "Resistor\nBypass"
+		(at 166.04 98.26 90)
+		(layer "F.SilkS")
+		(uuid "8b1e6d72-131e-448b-a9a9-a12d4b59a363")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
 	(gr_text "12V"
 		(at 193.2 65.8 0)
 		(layer "F.SilkS")
@@ -16881,6 +17001,18 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "Resistor\nBypass"
+		(at 127.94 98.26 90)
+		(layer "F.SilkS")
+		(uuid "b187fe05-d57e-4f01-a1b6-e3628fe0dd95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
 	(gr_text "-"
 		(at 133.02 122.39 0)
 		(layer "F.SilkS")
@@ -16891,6 +17023,30 @@
 				(thickness 0.1)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "Resistor\nBypass"
+		(at 140.64 77.94 90)
+		(layer "F.SilkS")
+		(uuid "b613e180-ae23-486c-960b-41d6f7f12ef9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "Resistor\nBypass"
+		(at 115.24 98.26 90)
+		(layer "F.SilkS")
+		(uuid "b71dc369-c6ad-4fbf-a00e-0089cded067f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
 		)
 	)
 	(gr_text "1"
@@ -16939,6 +17095,18 @@
 				(thickness 0.1)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "Resistor\nBypass"
+		(at 102.54 98.26 90)
+		(layer "F.SilkS")
+		(uuid "ce5942ae-16b5-4021-8f5f-42d3ee21d7f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
 		)
 	)
 	(gr_text "5V"
@@ -17011,6 +17179,30 @@
 				(thickness 0.1)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "Resistor\nBypass"
+		(at 191.44 98.26 90)
+		(layer "F.SilkS")
+		(uuid "ec3a4cd4-8649-45e1-95fa-61b237f52980")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "Resistor\nBypass"
+		(at 166.04 77.94 90)
+		(layer "F.SilkS")
+		(uuid "f671cb85-2cff-449e-acda-b432e59754de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
 		)
 	)
 	(gr_text "5"
