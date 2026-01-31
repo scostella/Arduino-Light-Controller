@@ -2893,14 +2893,14 @@
 			)
 		)
 	)
-	(footprint "SamacSys_Parts:L53ND"
+	(footprint "Custom:604-WP7113GD"
 		(layer "F.Cu")
 		(uuid "24eb0532-a2a3-4c32-9e88-721b618fa491")
 		(at 115.54 55 180)
 		(descr "T-1 3/4 (5mm) SOILD STATE LAMP")
 		(tags "LED")
 		(property "Reference" "LED1"
-			(at 1.5 -5.08 0)
+			(at 1.5 5 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "84288be4-e926-45a1-a2e3-21d615f8a271")
@@ -2911,8 +2911,8 @@
 				)
 			)
 		)
-		(property "Value" "WP7113GD"
-			(at 1.27 0 0)
+		(property "Value" "LED-Green-TH"
+			(at 1.27 0 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8d5b498b-1534-4b17-8f30-b40d0c3b0f30")
@@ -2924,7 +2924,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113GD.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fcb1e2bb-60be-4139-b2a2-28889a154f7a")
@@ -2935,8 +2935,8 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - Through Hole GREEN DIFFUSED"
-			(at 0 0 0)
+		(property "Description" "LED - Through Hole GREEN DIFFUSED"
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "480e881f-29e1-451d-8528-7d71107f6d17")
@@ -2952,7 +2952,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8a9818c-252b-4228-a945-13f8c1c2c501")
+			(uuid "5a9af42c-6426-4bb0-be56-a0c274589fee")
 			(effects
 				(font
 					(size 1 1)
@@ -2965,7 +2965,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "27f563c1-dae1-4d1b-8f6b-ee46050f83f1")
+			(uuid "49d0f4c3-9c32-4774-8782-d8abeb785cfc")
 			(effects
 				(font
 					(size 1 1)
@@ -2978,7 +2978,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c11bcc94-ca4b-4546-940b-b4ef9cf6c158")
+			(uuid "8baddd64-880e-4da1-bf03-c6773700da05")
 			(effects
 				(font
 					(size 1 1)
@@ -2991,7 +2991,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33deff72-a9cd-4463-acf6-e5489f787a3f")
+			(uuid "07cb00ac-9a3a-4f6f-9e40-ed9351c61cec")
 			(effects
 				(font
 					(size 1 1)
@@ -3004,7 +3004,46 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "537ed2ec-ae12-414d-9f9e-15bfef28294c")
+			(uuid "c744dcd9-9f2a-4be2-bbb8-b199de8e8f95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbf23374-85ba-427b-984c-af85ddf22450")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "604-WP7113GD"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be25af52-a16d-4c9c-a074-7780737cfb7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/WP7113GD?qs=pz0eHrWKk7njL1kTYKysuw%3D%3D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba1835a0-eef5-4558-a8a7-bbb8cb5009a7")
 			(effects
 				(font
 					(size 1 1)
@@ -3024,7 +3063,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "06d0acc7-e2d1-4790-ae61-ba8d9b3acea7")
+			(uuid "9f2bed1d-7fc7-4100-a118-53160a355065")
 		)
 		(fp_line
 			(start 4.12 0)
@@ -3034,7 +3073,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cdd85544-e3e8-41a5-8073-fc337d9dc5e0")
+			(uuid "1806d011-e6dc-4cfa-81f4-867914e59db7")
 		)
 		(fp_line
 			(start -1.27 -1.3)
@@ -3044,7 +3083,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "129b4011-df2b-4854-b083-d99136f6b342")
+			(uuid "b82f1de5-0caa-4d5c-85df-b998515aa73d")
 		)
 		(fp_line
 			(start -1.58 0)
@@ -3054,7 +3093,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "31438074-d009-410a-a64f-36165ed6a82d")
+			(uuid "366991c9-821d-484f-8f54-99c29b52f7e3")
 		)
 		(fp_line
 			(start -1.58 0)
@@ -3064,7 +3103,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "433b0a90-c42c-4442-9595-5bfa0063387c")
+			(uuid "0ba2f76f-3e96-4ad5-ba21-b1d695ea7454")
 		)
 		(fp_line
 			(start -2.2 0.2)
@@ -3074,7 +3113,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3dc9e8ee-3793-4a88-ab4a-dd49abad2d19")
+			(uuid "3aa48ff7-c52a-4b5f-8d16-279c61db846c")
 		)
 		(fp_line
 			(start -2.2 0)
@@ -3084,7 +3123,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5b7b1a62-b43f-463b-8ce7-5f78cae937c9")
+			(uuid "46937b65-0e2c-4da2-a3b6-35379406f375")
 		)
 		(fp_arc
 			(start 4.12 0)
@@ -3095,7 +3134,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "eb435ad4-73f5-4cec-b7e4-080c1e6bae90")
+			(uuid "607c9a66-463f-4dd2-9d3a-812ab4562811")
 		)
 		(fp_arc
 			(start 4.12 0)
@@ -3106,7 +3145,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dc86d2ca-55fc-4193-9f2a-f59328f055ca")
+			(uuid "ad8f6cb3-7c02-4456-aacd-be396acc056b")
 		)
 		(fp_arc
 			(start -1.58 0)
@@ -3117,7 +3156,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0b6ce06f-1732-4120-8e41-71bd7b4ba2b7")
+			(uuid "8ed861b9-5696-4ea1-8f82-52b49d3f120e")
 		)
 		(fp_arc
 			(start -1.58 0)
@@ -3128,7 +3167,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f545209b-fcbd-40d2-86c1-9d2b9ac7a34d")
+			(uuid "ba497636-c64c-4235-8816-6791cd197712")
 		)
 		(fp_arc
 			(start -2.2 0.2)
@@ -3139,7 +3178,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "48479a2a-49fb-4661-835d-6b85c816a61e")
+			(uuid "67e77bd1-03df-4d4e-b126-2793daad851a")
 		)
 		(fp_arc
 			(start -2.2 0)
@@ -3150,7 +3189,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "68f8f102-420b-47b3-9c85-02aaaf70e9e9")
+			(uuid "62c7d090-f79e-41ea-9bbd-2084ce145250")
 		)
 		(fp_line
 			(start 5.12 3.85)
@@ -3160,7 +3199,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ee8f7b46-26db-46a5-830f-e73b5d278caf")
+			(uuid "d1b20c30-ace3-4102-b865-f35bc49d2cb1")
 		)
 		(fp_line
 			(start 5.12 -3.85)
@@ -3170,7 +3209,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f5b61e3f-fd4c-45fc-b62a-7735db3a58a2")
+			(uuid "9df01af5-07cb-4d22-831a-b8088912a1a0")
 		)
 		(fp_line
 			(start -2.58 3.85)
@@ -3180,7 +3219,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c6442192-538b-4be1-8ad4-c18c49c5bece")
+			(uuid "a0e02894-c456-4718-a431-12277440e51a")
 		)
 		(fp_line
 			(start -2.58 -3.85)
@@ -3190,7 +3229,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6593d704-e06c-4996-8f0e-dde2cdab2655")
+			(uuid "cbfda0b3-fa9f-4ffc-9967-42b6efeb9c05")
 		)
 		(fp_line
 			(start 4.12 0)
@@ -3200,7 +3239,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e0c26ed3-166e-4059-b132-8e3da3b52851")
+			(uuid "0ac2256a-5c76-4a99-9a8f-663237d84de1")
 		)
 		(fp_line
 			(start -1.27 -1.3)
@@ -3210,7 +3249,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4299dc04-ea99-4f84-9405-197fded1647c")
+			(uuid "fe0298a3-2b8f-4014-aafb-537304901d9c")
 		)
 		(fp_line
 			(start -1.58 0)
@@ -3220,7 +3259,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "afbeb70e-3292-45cc-a567-b15165d17545")
+			(uuid "25c07667-3461-4b84-a123-9854c5b97c67")
 		)
 		(fp_arc
 			(start 4.12 0)
@@ -3231,7 +3270,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ffe0d2df-e2bc-4b03-98c6-0f808f08ca38")
+			(uuid "50f13ca9-ad1b-4fea-8a6e-b6481966d405")
 		)
 		(fp_arc
 			(start -1.58 0)
@@ -3242,10 +3281,10 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "383345a8-7b1a-43c7-ae42-2ca96c811977")
+			(uuid "3f65367b-38ce-4a15-93e5-26d866da205b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -5.08 0)
+			(at 1.27 0 180)
 			(layer "F.Fab")
 			(uuid "1e4cf01e-2bb2-40c9-ae38-1442ce4da083")
 			(effects
@@ -15655,14 +15694,14 @@
 			)
 		)
 	)
-	(footprint "SamacSys_Parts:CAPPRD200W52D500H1250"
+	(footprint "Custom:710-860010472002"
 		(layer "F.Cu")
 		(uuid "c8b0e152-9890-445d-bb51-2ac7a2007d52")
 		(at 124.9 59.6)
 		(descr "5x11")
 		(tags "Capacitor Polarised")
 		(property "Reference" "C1"
-			(at 1 -1.5 0)
+			(at 1.1 1.4 0)
 			(layer "F.SilkS")
 			(uuid "787e925f-fc0a-4cf0-840c-1387aefbca99")
 			(effects
@@ -15672,7 +15711,7 @@
 				)
 			)
 		)
-		(property "Value" "860010472002"
+		(property "Value" "CapE-10uf-25V-TH"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -15713,7 +15752,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fd57a6a2-324f-4719-9ce3-99afdeee0292")
+			(uuid "294f5688-e1b9-49ca-b082-a9fb71d236e9")
 			(effects
 				(font
 					(size 1 1)
@@ -15726,7 +15765,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9af0de9d-c7cb-4268-ab93-0f31cda60ed0")
+			(uuid "28066a11-a969-4806-a17e-c937628a6ecd")
 			(effects
 				(font
 					(size 1 1)
@@ -15739,7 +15778,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0ca40bb7-4df7-43ee-828c-f9c16bd0f689")
+			(uuid "6398ae0a-bd42-4b01-ab18-eb88c0c74f23")
 			(effects
 				(font
 					(size 1 1)
@@ -15752,7 +15791,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a92a455f-9274-4c30-9361-69aa01218f35")
+			(uuid "ca403341-2d68-4bd4-a160-06ba3a741f2e")
 			(effects
 				(font
 					(size 1 1)
@@ -15765,7 +15804,46 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a255334a-290c-4da2-98e7-21502c8f2120")
+			(uuid "114556bd-9e8d-4a87-9c79-1d575641241f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "206ffe3a-5f59-4077-aaa8-c65306f0d86e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part Number" "710-860010472002"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ae574fd-3c22-4738-873d-7b9976a1afd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/860010472002?qs=0KOYDY2FL2%2FyXlauDHcLjg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2209fda5-4b1d-43bd-9fd7-04a363d0fb2d")
 			(effects
 				(font
 					(size 1 1)
@@ -15786,7 +15864,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "f48d3d67-ca5c-4be7-9d48-16ce1f2e2e66")
+			(uuid "01374749-67c0-43f0-8d55-21f78ea26c97")
 		)
 		(fp_circle
 			(center 1 0)
@@ -15797,7 +15875,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "425140d3-e0d3-402d-89e5-d67a4f473239")
+			(uuid "7bf6e093-bcb4-46ec-a5dd-51e24dffb9a0")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
