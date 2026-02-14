@@ -33,7 +33,7 @@ The design emphasizes:
 
 ## Assembled Board
 
-![Arduino Light Controller](Arduino%20Light%20Controller.jpg)
+![Arduino Light Controller Assembled Board](./Arduino%20Light%20Controller.jpg)
 
 The image above shows the assembled Arduino Light Controller PCB with all connectors and headers populated.
 
@@ -141,6 +141,38 @@ This board is well suited for:
 - Control panels and indicators
 - Building and interior lighting
 - Any application requiring simple, predictable lighting control
+
+---
+
+## Limited Liability and Disclaimer
+
+This project is provided as an **open‑source hardware design** and is offered **as‑is**, without warranty of any kind.
+
+By using this design, documentation, or any assembled hardware provided by the author, you agree to the following:
+
+- You assume **all responsibility** for proper electrical design, wiring, installation, and use
+- The author makes **no guarantees** regarding suitability for any specific application
+- The author shall not be held liable for:
+  - Damage to equipment
+  - Electrical failures
+  - Personal injury
+  - Property damage
+  - Losses resulting from improper use, installation, or modification
+
+Use of this project or any associated hardware constitutes acceptance of these terms.
+
+---
+
+## Availability and Purchase
+
+Fully **assembled and tested** Arduino Light Controller boards are available.
+
+- **Price:** $35 USD per board  
+- **Shipping:** Additional, based on destination  
+- **Contact:**  
+  📧 scostella@seancostella.com  
+
+Please contact the author for current availability, lead times, and shipping details.
 
 ---
 
