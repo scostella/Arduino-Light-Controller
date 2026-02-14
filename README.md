@@ -162,3 +162,14 @@ These projects may be used together to form a complete CMRI‑controlled lightin
 ---
 
 ## Repository Contents
+
+```text
+/
+├── Arduino Light Controller.kicad_pcb        # KiCad PCB Layout
+├── Arduino Light Controller.kicad_prl        # KiCad Project Settings
+├── Arduino Light Controller.kicad_pro        # KiCad Project
+├── Arduino Light Controller.kicad_sch        # KiCad Schematics
+├── PowerLED.kicad_sch                        # KiCad Power and LED module
+├── ResistorNet.kicad_sch                     # KiCad Light Control Resistor and Bypass module
+├── Arduino Light Controller.jpg              # Board Rendering
+└── README.md
