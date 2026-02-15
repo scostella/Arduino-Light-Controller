@@ -180,14 +180,33 @@ Please contact the author for current availability, lead times, and shipping det
 
 The Arduino Light Controller integrates with the Arduino CMRI ecosystem. The following projects provide related hardware, firmware, and configuration support:
 
-- **Arduino Mega CMRI WiFi Shield**  
-  https://github.com/scostella/Arduino_Mega_CMRI_WiFi_Shield
-
 - **Arduino Mega CMRI WiFi**  
+  Arduino sketch for Mega 2560 to operate as CMRI Node with an ESP8266-ESP01 providing WiFi connectivity.
   https://github.com/scostella/Arduino_Mega_CMRI_WiFi
 
 - **ESP8266 WiFi Setup Utility**  
+  ESP sketch to program the ESP8266-ESP01 to work with the Arduino Mega 2560 and connection configuration for your WiFi network.
   https://github.com/scostella/ESP8266WiFiSetup
+
+- **Arduino Mega CMRI WiFi Shield**  
+  KiCad design for a shield for the Arduino Mega 2560 facilitating easy integration with the ESP8266-ESP01 and the CMRI modules listed below.
+  https://github.com/scostella/Arduino_Mega_CMRI_WiFi_Shield
+
+- **Arduino Accessory Controller**  
+  KiCad design for a board to control accessories up to 1 amp.
+  https://github.com/scostella/Arduino-Accessory-Controller
+
+- **Arduino IR Sensor Module - 8 Port**  
+  KiCad design for a board to use TCRT5000 IR module to sense object presence which can also be used in the Arduino Mega CMRI WiFi module to group sensors to create virtual block detection.
+  https://github.com/scostella/Arduino_IR_Sensor_Module_-_8_Port
+
+- **Arduino Tortoise Controller with Feedback - 8 Port**  
+  KiCad design for a board to control Circuitron Tortoise Slow Motion Switch machines and provide feedback on switch position either controlled internally by the voltage applied to the tortoise or an external signal.
+  https://github.com/scostella/Arduino_Tortoise_Controller_with_Feedback_-_8_Port
+
+- **Arduino Light Controller**  
+  KiCad design for a board to control low amperage lighting and other loads (<10ma) using the Arduino's 5V source.
+  https://github.com/scostella/Arduino-Light-Controller
 
 These projects may be used together to form a complete CMRI‑controlled lighting and I/O system.
 
