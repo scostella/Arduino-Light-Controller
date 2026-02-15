@@ -178,7 +178,7 @@ Please contact the author for current availability, lead times, and shipping det
 
 ## Reference Projects
 
-The Arduino Light Controller integrates with the Arduino CMRI ecosystem. The following projects provide related hardware, firmware, and configuration support:
+This project integrates with the Arduino CMRI ecosystem. The following projects provide related hardware, firmware, and configuration support:
 
 - **Arduino Mega CMRI WiFi**  
   Arduino sketch for Mega 2560 to operate as CMRI Node with an ESP8266-ESP01 providing WiFi connectivity.
